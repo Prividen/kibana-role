@@ -46,6 +46,7 @@ provisioner:
         elasticsearch_version: "{{ elk_stack_version }}"
         kibana_version: "{{ elk_stack_version }}"
         elasticsearch_hosts: [ '127.0.0.1' ]
+        es_java_memory_gb: 1
 
 verifier:
   name: ansible

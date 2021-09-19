@@ -18,7 +18,7 @@ Example Playbook
     - name: Install Kibana
       hosts: kibana
       roles:
-        - kibana-role
+        - kibana_role
 
 
 License
